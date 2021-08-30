@@ -1,0 +1,95 @@
+.postContainer{
+	height: 100%;
+	/* display: flex;
+	flex-direction: column; */
+}
+
+.grides{
+	border: none;
+}
+.grides:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.element-item {
+	position: relative;
+	float: right;
+	width: 19.7%;
+	margin: 1px;
+}
+.element-item > * {
+	margin: 0;
+	padding: 0;
+}
+
+.formInput{
+	background-color: rgb(250, 250, 250);
+	text-align: right;
+	padding: 16px 10px 0;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row-reverse;
+	overflow-x: scroll;
+	/* border: 1px solid red; */
+}
+.formInput::-webkit-scrollbar{
+	width: 0;
+}
+.filerButtonContainer{
+	margin: 2px 10px;
+}
+
+.filerText{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.priceRange{
+	width: 150px;
+	margin-right: 10px;
+}
+
+.pagination{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 25px 0px 10px;
+}
+
+.notFound{
+	max-width: 250px;
+	text-align: right;
+	margin-right: 15px;
+}
+
+/* labtop - md */
+@media all and (max-width: 1200px) {
+	.element-item {
+		width: 24.7%;
+	}
+}
+/* tablet - md */
+@media all and (max-width: 992px) {
+	.element-item {
+		width: 33%;
+	}
+}
+/* phone - xs */
+/* @media all and (max-width: 768px) {
+	.element-item {
+		width: 33%;
+	}
+} */
+@media all and (max-width: 760px) {
+	.element-item {
+		width: 49.5%;
+	}
+}
+@media all and (max-width: 480px) {
+	.element-item {
+		width: 100%;
+	}
+}

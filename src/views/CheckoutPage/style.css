@@ -1,0 +1,180 @@
+.checkOutPageContainer{
+    padding: 5px;
+}
+.checkoutContainer{
+    margin: 5px;
+}
+
+
+
+/* ------------ */
+/* CheckoutStep */
+.checkoutStep{
+    border: 1px solid rgb(240, 225, 225);
+    box-sizing: border-box;
+    background: #fff;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.checkoutStep:hover{
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.checkoutHeader{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.checkoutHeader.active{
+    background: #2874f0;
+}
+.checkoutHeader .stepNumber{
+    display: inline-block;
+    text-align: center;
+    background: #2874f0;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 3px 7px;
+}
+.checkoutHeader.active .stepNumber{
+    background: #fff;
+    color: #2874f0;
+}
+.stepTitle{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+    margin-right: 15px;
+}
+.checkoutHeader.active .stepTitle{
+    color: #fff;
+}
+
+
+
+/* Checkout Step One */
+.NotloggedInId{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px 10px 0;
+    font-size: 12px;
+}
+
+.loggedInId{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 15px 15px 0;
+}
+.loggedInGrid{
+    padding-top: 8px;
+}
+.loggedInTxt{
+    margin-left: 13px;
+}
+
+
+.addressContainer{
+    padding: 20px;
+    text-align: right;
+}
+.addressinfo{
+    padding-right: 5px;
+}
+.addressDetail{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #333;
+}
+.anchoraddressDetail{
+    position: relative;
+    top: -8px;
+    color: rgb(2,136,209);
+    border: none;
+    background: inherit;
+}
+.addressName{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 1px 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    color: rgb(69,90,100);
+    background: rgb(233, 238, 241);
+}
+
+.liAddressDetail label{
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.liAddressDetail input{
+    margin-left: 12px;
+}
+
+
+.fullAddress{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+/* Checkout Step Two-Three */
+.stepCompleted{
+    padding: 0 20px 15px;
+    font-size: 12px;
+}
+
+/* new address */
+.addressChangeorAdd{
+    padding: 12px 6px 9px;
+}
+.selectpickerOption{
+    text-align: right;
+    padding: 8px 10px 12px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* orderSummary */
+.orderSummary{
+    padding: 20px; 
+    align-items: center;
+}
+.orderSummary p{
+    font-size: 12px;
+}
+/* paymentOption */
+.paymentOption{
+	padding: 20px 20px 10px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+.paymentOption input{
+    margin-left: 10px;
+}
+.paymentOptionButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768) {
+    .checkoutContainer{
+        margin: 3px;
+    }
+
+    .loggedInGrid{
+        padding: 0;
+    }
+}

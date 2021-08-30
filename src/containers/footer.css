@@ -1,0 +1,73 @@
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+.footer-section {
+	margin-top: 20px;
+	background-color: #172337;
+	color: #fff;
+}
+.containerFooter{
+	padding-right: 20px;
+}
+
+/* main footer */
+.single-ctaContain{
+	padding: 10px 5px;
+}
+.single-cta{
+	text-align: right;
+	padding: 10px;
+}
+.single-cta .fatag {
+	color: #546E7A;
+	font-size: 30px;
+	float: right;
+	margin: 8px 0 0 15px;
+}
+.cta-text {
+	padding-left: 5px;
+	display: inline-block;
+}
+.cta-text h6 {
+	color: #546E7A;
+	font-size: 15px;
+	margin-bottom: 3px;
+}
+.cta-text span {
+	font-size: 15px;
+}
+
+
+/* --------- */
+.mainLink{
+	padding-bottom: 20px;
+	text-align: right;
+}
+.titlePaper{
+	color: rgb(150, 150, 150);
+	font-size: 14px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #546E7A;
+}
+.footer-widget{
+	padding-top: 8px;
+}
+.paperMain a, .detailsPaper{
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	line-height: 28px;
+}
+
+
+/* copy right */
+.copyright-area {
+	background: #141414;
+	padding: 10px 0;
+}
+.copyright-text p {
+	margin: 0;
+	font-size: 14px;
+	color: #777777;
+}
+

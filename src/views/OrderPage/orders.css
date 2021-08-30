@@ -1,0 +1,32 @@
+.orderContain{
+    padding: 10px 10px 0;
+}
+.orderItemContainer{
+    padding: 10px 5px;
+}
+.orderGridContainer{
+    text-align: right;
+}
+
+.orderGrid{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 3px 20px;
+    color: #37474F;
+}
+/* --- */
+.orderImgContainer{
+    text-align: center;
+}
+.orderImg{
+    max-width: 112px;
+    max-height: 80px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .orderContain{
+        padding: 5px 5px 0px;
+    }
+}

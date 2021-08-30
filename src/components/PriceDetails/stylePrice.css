@@ -1,0 +1,26 @@
+.gridMainPriceDetail{
+    padding: 8px 0 2px;
+    text-align: center;
+    font-size:15px;
+}
+
+/* sixPriceDetail */
+.sixPriceDetail{
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.sixPriceDetail .ptag{
+    margin: 5px 0;
+}
+/* linetag */
+.gridMainPriceDetail .linetag{
+    border-left: 1px solid rgb(228, 228, 228);
+}
+/* twoelvPriceDetail */
+.twoelvPriceDetail{
+    color: green;
+    font-size: 18px;
+    padding: 12px 10px;
+}
+.twoelvPriceDetail .ptag2{
+    margin-left: 15px;
+}
