@@ -1,3 +1,8 @@
+## Creators
+
+**Łukasz Holeczek**
+* Mostafa Moayedpour
+
 [![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
 [![npm package][npm-coreui-badge]][npm-coreui]
 [![NPM downloads][npm-coreui-download]][npm-coreui]  
@@ -140,13 +145,6 @@ The documentation for the CoreUI Admin Template is hosted at our website [CoreUI
 For transparency into our release cycle and in striving to maintain backward compatibility, CoreUI Free Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
 See [the Releases section of our project](https://github.com/coreui/coreui-free-react-admin-template/releases) for changelogs for each release version.
-
-## Creators
-
-**Łukasz Holeczek**
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/mrholek>
-* <https://github.com/coreui>
 
 **CoreUI team**
 * https://github.com/orgs/coreui/people
