@@ -90,8 +90,8 @@ The documentation for the CoreUI Admin Template is hosted at our website [CoreUI
 
 ## Copyright and License
 
-copyright 2020 creativeLabs Mostafa Moayedpour.   
+copyright 2020 creator Mostafa Moayedpour.   
 
  
-Code released under [the MIT license](https://github.com/coreui/coreui-free-react-admin-template/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/mostafamoayed66/argavani/blob/main/LICENSE).
 There is only one limitation you can't can’t re-distribute the CoreUI as stock. You can’t do this if you modify the CoreUI. In past we faced some problems with persons who tried to sell CoreUI based templates.
